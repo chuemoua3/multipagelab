@@ -1,0 +1,169 @@
+
+
+/*adding a background image*/
+/*html{
+
+	background-image: url(https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+
+}*/
+html{
+
+	background-image: url(https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position: top center;
+	background-attachment: fixed;
+
+
+
+}
+
+nav li {
+	display: inline;		/*this is to make the words go horizontal instead listing it*/
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin-right: 30px;		/* margin is to add space to the wording/pictures*/
+}
+
+nav a{
+	
+	text-decoration: none;	/*text-decoration ---> no underline, bold, etc*/
+	color: black;
+}
+
+/*this is so when you go over the word/link it turns grey*/
+nav a:hover{
+	text-decoration: underline;
+	color: darkgrey;
+}
+
+img{
+	border: 5px-dotted red;
+}
+
+/*link box styles*/
+.linkBox_wrapper a{
+
+	position: relative;
+}
+#linkBox_img{
+
+	width: 33%;
+	margin-left: 1%;
+}
+
+#linkBox_text{
+
+	position: absolute;
+	top: 45%;
+	left: 33%;
+}
+
+
+
+h1{
+	color: black;
+	font-size: 50px;
+	text-decoration: bold;
+	text-transform: none;
+}
+h2{
+	color: green; 
+	font-size: 30px;
+}
+
+li{
+	font-weight: bold;
+}
+
+/*button styles/design */
+button{
+	border: 2px solid black;
+	padding: 10px 25px;
+	display: block;		/*to playce the buttons below each other or make a block type area of the page*/
+	margin-bottom: 20px;	/*to give space between the buttons*/
+
+}
+button:hover {
+	background-color: black;
+	color: white;
+}
+.redbutton {
+	border: 2px solid red;
+}
+.redbutton:hover {
+	background-color: red;
+}
+
+.bluebutton{
+	border: 2px solid blue;
+
+}
+.bluebutton:hover{
+	background-color: blue;
+}
+
+/*use commas to seperate multiple selectors and apply the same rule to all*/
+table, th, td{
+	border: 3px solid black;
+	margin: 0 auto; /*where there is two numbers, the first number is for top+bottom, the second is for right+left*/
+
+}
+table {
+
+	background-color:yellow;
+	padding: 15px;
+}
+th, td{
+
+	background-color: white;
+	padding: 5px;
+}
+
+th{
+	margin-bottom: 10px;
+}
+
+/*#placesHeader{
+	color: green;*/
+
+}
+
+/*"." signals a class*/
+
+.educationImage{
+
+	transform: rotate(0deg);
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	z-index: 1;		/* for "purposes" bringing a picture to the back of the wording, (z axis)*/
+
+}
+/*putting our inputs on their own line instsead of one line*/
+form select, form label{
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+/*to put buttons below the title with a class called "inline"*/
+.inline{
+	display: inline;
+}
+
+.option{
+	list
+	display: inline;
+}
+
+.submitbutton{
+	font-family: sans-serif;
+	background-color: white;
+	text-decoration: underline;
+}
